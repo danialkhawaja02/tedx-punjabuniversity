@@ -43,7 +43,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section ref={containerRef} className="relative min-h-screen flex items-center pt-32 overflow-hidden bg-ted-black text-white">
+    <section ref={containerRef} className="relative min-h-screen flex items-center pt-24 overflow-hidden bg-ted-black text-white">
       {/* Subtle background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-ted-red/10 rounded-full blur-[120px] pointer-events-none" />
 
