@@ -35,7 +35,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="relative bg-ted-black min-h-screen">
+    <div className="relative bg-ted-black min-h-screen overflow-x-hidden w-full">
       {/* Progress Bar */}
       <div
         id="progress-bar"
