@@ -2,23 +2,38 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+import imgMuneeza from "../assets/images/Muneeza.webp";
+import imgZaeem from "../assets/images/Zaeem.webp";
+import imgRida from "../assets/images/Rida.webp";
+import imgMarryam from "../assets/images/Marryam.webp";
+import imgMaryum from "../assets/images/Maryum.webp";
+import imgShaheryar from "../assets/images/Shaheryar.webp";
+import imgDanial from "../assets/images/Danial.webp";
+import imgMahnoor from "../assets/images/Mahnoor.webp";
+import imgMBurhan from "../assets/images/MBurhan.webp";
+import imgBurhan from "../assets/images/Burhan.webp";
+import imgUsman from "../assets/images/Usman.webp";
+import imgWania from "../assets/images/Wania.webp";
+import imgSaleha from "../assets/images/Saleha.webp";
+import imgAyesha from "../assets/images/Ayesha.webp";
+
 gsap.registerPlugin(ScrollTrigger);
 
 const TEAM = [
-  { name: "Muneeza Wasim", role: "Organizer", image: "src/assets/images/Muneeza.webp" },
-  { name: "Zaeem Bhatti", role: "Co-Organizer", image: "src/assets/images/Zaeem.webp" },
-  { name: "Rida Fatima", role: "Operations Lead", image: "src/assets/images/Rida.webp" },
-  { name: "Marryam Saeed", role: "Marketing Lead", image: "src/assets/images/Marryam.webp" },
-  { name: "Maryum Iqbal", role: "Creative Lead", image: "src/assets/images/Maryum.webp" },
-  { name: "Muhammad shaheryar", role: "Registration Lead", image: "src/assets/images/Shaheryar.webp" },
-  { name: "Danial Sohail", role: "Curation Lead", image: "src/assets/images/Danial.webp" },
-  { name: "Mahnoor Imran", role: "Curation Co-Lead", image: "src/assets/images/Mahnoor.webp" },
-  { name: "Muhammad Burhan", role: "Logistics Lead", image: "src/assets/images/MBurhan.webp" },
-  { name: "Burhan Rasool", role: "Logistics Co-Lead", image: "src/assets/images/Burhan.webp" },
-  { name: "Usman Muneer", role: "Visuals Lead", image: "src/assets/images/Usman.webp" },
-  { name: "Wania Badar", role: "Visuals Co-Lead", image: "src/assets/images/Wania.webp" },
-  { name: "Saleha Tahir", role: "Graphics Lead", image: "src/assets/images/Saleha.webp" },
-  { name: "Ayesha Faisal", role: "Graphics Co-Lead", image: "src/assets/images/Ayesha.webp" },
+  { name: "Muneeza Wasim", role: "Organizer", image: imgMuneeza },
+  { name: "Zaeem Bhatti", role: "Co-Organizer", image: imgZaeem },
+  { name: "Rida Fatima", role: "Operations Lead", image: imgRida },
+  { name: "Marryam Saeed", role: "Marketing Lead", image: imgMarryam },
+  { name: "Maryum Iqbal", role: "Creative Lead", image: imgMaryum },
+  { name: "Muhammad shaheryar", role: "Registration Lead", image: imgShaheryar },
+  { name: "Danial Sohail", role: "Curation Lead", image: imgDanial },
+  { name: "Mahnoor Imran", role: "Curation Co-Lead", image: imgMahnoor },
+  { name: "Muhammad Burhan", role: "Logistics Lead", image: imgMBurhan },
+  { name: "Burhan Rasool", role: "Logistics Co-Lead", image: imgBurhan },
+  { name: "Usman Muneer", role: "Visuals Lead", image: imgUsman },
+  { name: "Wania Badar", role: "Visuals Co-Lead", image: imgWania },
+  { name: "Saleha Tahir", role: "Graphics Lead", image: imgSaleha },
+  { name: "Ayesha Faisal", role: "Graphics Co-Lead", image: imgAyesha },
 ];
 
 export default function Team() {
