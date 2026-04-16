@@ -24,7 +24,7 @@ export const SPEAKERS: Speaker[] = [
   {
     id: "03",
     name: "Dr. Bushra Nisar Khan",
-    title: "Academic & Zoology Researcher, Punjab University",
+    title: "Academic & Zoology Researcher",
     socialLink: "https://www.researchgate.net/profile/Bushra-Khan-21",
     image: "https://picsum.photos/seed/nature/400/500"
   },

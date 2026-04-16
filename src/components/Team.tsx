@@ -5,10 +5,20 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const TEAM = [
-  { name: "Ali Raza", role: "Organizer", image: "https://picsum.photos/seed/ali/400/400" },
-  { name: "Sara Ahmed", role: "Co-organizer", image: "https://picsum.photos/seed/sara/400/400" },
-  { name: "Zainab Khan", role: "Marketing Lead", image: "https://picsum.photos/seed/zainab/400/400" },
-  { name: "Usman Tariq", role: "Design Lead", image: "https://picsum.photos/seed/usman/400/400" },
+  { name: "Muneeza Wasim", role: "Organizer", image: "src/assets/images/Muneeza.webp" },
+  { name: "Zaeem Bhatti", role: "Co-Organizer", image: "src/assets/images/Zaeem.webp" },
+  { name: "Rida Fatima", role: "Operations Lead", image: "src/assets/images/Rida.webp" },
+  { name: "Marryam Saeed", role: "Marketing Lead", image: "src/assets/images/Marryam.webp" },
+  { name: "Maryum Iqbal", role: "Creative Lead", image: "src/assets/images/Maryum.webp" },
+  { name: "Muhammad shaheryar", role: "Registration Lead", image: "src/assets/images/Shaheryar.webp" },
+  { name: "Danial Sohail", role: "Curation Lead", image: "src/assets/images/Danial.webp" },
+  { name: "Mahnoor Imran", role: "Curation Co-Lead", image: "src/assets/images/Mahnoor.webp" },
+  { name: "Muhammad Burhan", role: "Logistics Lead", image: "src/assets/images/MBurhan.webp" },
+  { name: "Burhan Rasool", role: "Logistics Co-Lead", image: "src/assets/images/Burhan.webp" },
+  { name: "Usman Muneer", role: "Visuals Lead", image: "src/assets/images/Usman.webp" },
+  { name: "Wania Badar", role: "Visuals Co-Lead", image: "src/assets/images/Wania.webp" },
+  { name: "Saleha Tahir", role: "Graphics Lead", image: "src/assets/images/Saleha.webp" },
+  { name: "Ayesha Faisal", role: "Graphics Co-Lead", image: "src/assets/images/Ayesha.webp" },
 ];
 
 export default function Team() {
@@ -58,21 +68,46 @@ export default function Team() {
           </p>
         </div>
 
-        <div ref={gridRef} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {TEAM.map((member, index) => (
-            <div key={index} className="team-card group relative aspect-square rounded-full overflow-hidden border border-ted-black/10 cursor-pointer">
-              <img
-                src={member.image}
-                alt={member.name}
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col items-center justify-center text-white p-6 text-center">
-                <h3 className="text-2xl font-bold mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">{member.name}</h3>
-                <p className="text-ted-red font-bold uppercase tracking-widest text-sm translate-y-4 group-hover:translate-y-0 transition-transform duration-500 delay-75">{member.role}</p>
+        <div ref={gridRef} className="flex flex-col gap-6 lg:gap-8">
+          {/* Top 2 Organizer Roles */}
+          <div className="flex flex-wrap justify-center gap-6 lg:gap-8">
+            {TEAM.slice(0, 2).map((member, index) => (
+              <div key={index} className="team-card group flex flex-col w-[calc(50%-0.75rem)] sm:w-[calc(33.333%-1rem)] lg:w-[calc(25%-1.5rem)]">
+                <div className="relative aspect-square w-full overflow-hidden cursor-pointer mb-4 border border-ted-black/10">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-transform duration-700"
+                    referrerPolicy="no-referrer"
+                  />
+                </div>
+                <div className="text-center px-1">
+                  <h3 className="text-xl md:text-2xl font-bold mb-1 md:mb-2">{member.name}</h3>
+                  <p className="text-ted-red font-bold uppercase tracking-widest text-[10px] md:text-xs">{member.role}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+
+          {/* Remaining Core Team Members */}
+          <div className="flex flex-wrap justify-center gap-6 lg:gap-8">
+            {TEAM.slice(2).map((member, index) => (
+              <div key={index + 2} className="team-card group flex flex-col w-[calc(50%-0.75rem)] sm:w-[calc(33.333%-1rem)] lg:w-[calc(25%-1.5rem)]">
+                <div className="relative aspect-square w-full overflow-hidden cursor-pointer mb-4 border border-ted-black/10">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-transform duration-700"
+                    referrerPolicy="no-referrer"
+                  />
+                </div>
+                <div className="text-center px-1">
+                  <h3 className="text-xl md:text-2xl font-bold mb-1 md:mb-2">{member.name}</h3>
+                  <p className="text-ted-red font-bold uppercase tracking-widest text-[10px] md:text-xs">{member.role}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

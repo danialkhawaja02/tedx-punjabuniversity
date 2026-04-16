@@ -23,7 +23,7 @@ export default function Impact() {
 
       // Animate numbers
       const stats = gsap.utils.toArray<HTMLDivElement>(".stat-item");
-      
+
       gsap.from(stats, {
         y: 30,
         opacity: 0,
@@ -43,9 +43,9 @@ export default function Impact() {
     <section ref={sectionRef} className="py-32 bg-ted-black text-white border-t border-white/10 relative">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-6xl font-black mb-6">THE POWER OF <span className="text-ted-red">TEDx</span></h2>
-          <p className="text-xl text-ted-gray max-w-2xl mx-auto font-light">
-            A global movement devoted to ideas worth spreading, bringing communities together to spark deep discussion and connection.
+          <h2 className="text-4xl md:text-6xl font-black mb-6">What is <span className="text-ted-red">TEDx</span></h2>
+          <p className="text-xl text-ted-gray max-w-6xl mx-auto font-light">
+            In the spirit of discovering and spreading ideas, TED has created a program called TEDx. TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. Our event is called TEDxPunjab University, where x = independently organized TED event. At our TEDxPunjab University event, TED Talks video and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance for the TEDx program, but individual TEDx events, including ours, are self-organized.
           </p>
         </div>
 

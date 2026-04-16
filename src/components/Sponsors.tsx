@@ -5,12 +5,14 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const SPONSORS = [
+  /*
   { name: "Partner 1", logo: "https://picsum.photos/seed/partner1/200/100" },
   { name: "Partner 2", logo: "https://picsum.photos/seed/partner2/200/100" },
   { name: "Partner 3", logo: "https://picsum.photos/seed/partner3/200/100" },
   { name: "Partner 4", logo: "https://picsum.photos/seed/partner4/200/100" },
   { name: "Partner 5", logo: "https://picsum.photos/seed/partner3/200/100" },
-  { name: "Partner 6", logo: "https://picsum.photos/seed/partner4/200/100" },
+  { name: "Partner 6", logo: "https://picsum.photos/seed/partner4/200/100" }
+  */
 ];
 
 export default function Sponsors() {
