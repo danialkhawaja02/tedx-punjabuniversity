@@ -32,9 +32,9 @@ export default function Navbar() {
           <a href="#schedule" className="text-sm font-medium text-ted-gray hover:text-white transition-colors duration-300">Schedule</a>
           <a href="#team" className="text-sm font-medium text-ted-gray hover:text-white transition-colors duration-300">Our Team</a>
           <a href="#partners" className="text-sm font-medium text-ted-gray hover:text-white transition-colors duration-300">Partners</a>
-          <button className="bg-ted-red text-white px-8 py-3 rounded-full text-sm font-bold hover:bg-white hover:text-ted-black transition-all duration-300">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH_FaA7Wh5CWS7dYk1-SNugIgx9XKFzU0kj2cvDWMRsFCDqA/viewform" target="_blank" rel="noopener noreferrer" className="bg-ted-red text-white px-8 py-3 rounded-full text-sm font-bold hover:bg-white hover:text-ted-black transition-all duration-300">
             Apply to Attend
-          </button>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -61,9 +61,9 @@ export default function Navbar() {
           <a onClick={() => setIsMobileMenuOpen(false)} href="#schedule" className="text-xl font-medium text-ted-gray hover:text-white transition-colors duration-300">Schedule</a>
           <a onClick={() => setIsMobileMenuOpen(false)} href="#team" className="text-xl font-medium text-ted-gray hover:text-white transition-colors duration-300">Our Team</a>
           <a onClick={() => setIsMobileMenuOpen(false)} href="#partners" className="text-xl font-medium text-ted-gray hover:text-white transition-colors duration-300">Partners</a>
-          <button onClick={() => setIsMobileMenuOpen(false)} className="bg-ted-red text-white px-8 py-3 rounded-full text-base font-bold hover:bg-white hover:text-ted-black transition-all duration-300 mt-4">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH_FaA7Wh5CWS7dYk1-SNugIgx9XKFzU0kj2cvDWMRsFCDqA/viewform" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="bg-ted-red text-white px-8 py-3 rounded-full text-base font-bold hover:bg-white hover:text-ted-black transition-all duration-300 mt-4">
             Apply to Attend
-          </button>
+          </a>
         </div>
       </div>
     </nav>

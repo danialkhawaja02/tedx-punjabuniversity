@@ -64,22 +64,22 @@ export default function Hero() {
         <div ref={detailsRef} className="flex flex-col md:flex-row items-center gap-6 md:gap-12 mb-16 text-lg font-medium tracking-wide">
           <div className="flex items-center gap-3">
             <span className="w-2 h-2 rounded-full bg-ted-red animate-pulse" />
-            28 April 2026
+            27th April 2026
           </div>
           <div className="hidden md:block w-px h-6 bg-white/20" />
           <div className="flex items-center gap-3">
-            Punjab University, Lahore
+            Environmental Law Auditorium, Punjab University, Lahore
           </div>
         </div>
 
         <div ref={buttonsRef} className="flex flex-col sm:flex-row gap-6">
-          <button className="bg-ted-red text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-ted-black transition-all duration-500 flex items-center justify-center gap-2 group">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH_FaA7Wh5CWS7dYk1-SNugIgx9XKFzU0kj2cvDWMRsFCDqA/viewform" target="_blank" rel="noopener noreferrer" className="bg-ted-red text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-ted-black transition-all duration-500 flex items-center justify-center gap-2 group">
             Apply to Attend
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </button>
-          <button className="border border-white/20 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white/10 transition-all duration-500">
-            Become a Partner
-          </button>
+          </a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfi1rh5pI5L3FmGAgC3XakLkoPAHsxly2y6eMZvtM4BR61LOg/viewform" target="_blank" rel="noopener noreferrer" className="border border-white/20 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white/10 transition-all duration-500">
+            Register for Stall Space
+          </a>
         </div>
       </div>
     </section>

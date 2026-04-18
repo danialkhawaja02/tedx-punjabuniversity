@@ -50,19 +50,19 @@ export default function Join() {
                   <div className="w-10 h-10 rounded-full bg-ted-red/10 flex items-center justify-center text-ted-red">
                     <Calendar className="w-5 h-5" />
                   </div>
-                  <span className="font-medium">28 April 2026</span>
+                  <span className="font-medium">27th April 2026</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 rounded-full bg-ted-red/10 flex items-center justify-center text-ted-red">
                     <Clock className="w-5 h-5" />
                   </div>
-                  <span className="font-medium">11:00 AM - 05:00 PM</span>
+                  <span className="font-medium">11:00 AM - 03:00 PM</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 rounded-full bg-ted-red/10 flex items-center justify-center text-ted-red">
                     <MapPin className="w-5 h-5" />
                   </div>
-                  <span className="font-medium">Punjab University, Lahore</span>
+                  <span className="font-medium">Environmental Law Auditorium, Punjab University, Lahore</span>
                 </div>
               </div>
             </div>
@@ -72,10 +72,10 @@ export default function Join() {
                 <p className="text-sm font-bold uppercase tracking-widest text-ted-gray mb-2">Standard Pass</p>
                 <p className="text-5xl font-black text-white">Apply Now</p>
               </div>
-              <button className="w-full bg-ted-red text-white py-4 rounded-full font-bold text-lg hover:bg-white hover:text-ted-black transition-all duration-500 flex items-center justify-center gap-2 group/btn">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH_FaA7Wh5CWS7dYk1-SNugIgx9XKFzU0kj2cvDWMRsFCDqA/viewform" target="_blank" rel="noopener noreferrer" className="w-full bg-ted-red text-white py-4 rounded-full font-bold text-lg hover:bg-white hover:text-ted-black transition-all duration-500 flex items-center justify-center gap-2 group/btn">
                 Secure Your Spot
                 <ArrowRight className="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" />
-              </button>
+              </a>
               <p className="text-xs text-ted-gray mt-4 text-center">Applications are reviewed on a rolling basis.</p>
             </div>
           </div>

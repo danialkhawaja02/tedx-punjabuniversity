@@ -5,12 +5,13 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const TIMELINE = [
-  { time: "11:00 AM", title: "Arrival & Registration", desc: "Check-in, grab your badge, and enjoy morning coffee." },
-  { time: "11:30 AM", title: "Session 1", desc: "Opening remarks and the first set of inspiring talks." },
-  { time: "12:00 PM", title: "Session 2", desc: "Connect with speakers and fellow attendees over lunch." },
-  { time: "01:30 PM", title: "Networking Lunch", desc: "Deep dives into innovation and transformative ideas." },
-  { time: "03:30 PM", title: "Session 3", desc: "Hands-on sessions to put ideas into action." },
-  { time: "05:00 PM", title: "Closing Ceremony", desc: "Final thoughts and the road ahead." },
+  { time: "11:00 AM - 11:30 AM", title: "National Anthem & Welcome Note by Host", desc: "Begin the day with the national anthem followed by a warm welcome to set the tone for the event." },
+  { time: "11:30 AM - 12:05 PM", title: "Session 1 Opening Talks", desc: "Kick off with inspiring talks that introduce powerful ideas and fresh perspectives." },
+  { time: "12:05 PM - 12:20 PM", title: "Qawali / Singing Performance", desc: "Enjoy a soulful musical performance to energize the audience and elevate the experience." },
+  { time: "12:20 PM - 01:15 PM", title: "Session 2: Mid Talks", desc: "Dive deeper into impactful stories and innovative ideas from diverse speakers." },
+  { time: "01:15 PM - 01:45 PM", title: "Networking Break (30 mins)", desc: "Connect with fellow attendees, speakers, and partners in an engaging environment." },
+  { time: "01:45 PM - 02:30 PM", title: "Session 3: Closing Talks", desc: "Final set of talks delivering meaningful insights and lasting takeaways." },
+  { time: "02:30 PM - 03:00 PM", title: "Closing Remarks & Thank You Note", desc: "Wrap up the event with reflections, gratitude and a look ahead." },
 ];
 
 export default function Experience() {

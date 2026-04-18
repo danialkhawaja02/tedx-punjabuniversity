@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import imgCarpeDiem from "../assets/images/CarpeDiem.webp";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -68,7 +69,7 @@ export default function Theme() {
           <div className="relative hidden lg:block">
             <div className="aspect-[4/5] rounded-3xl overflow-hidden relative">
               <img
-                src="https://picsum.photos/seed/seize/800/1000"
+                src={imgCarpeDiem}
                 alt="Carpe Diem"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
                 referrerPolicy="no-referrer"

@@ -33,15 +33,15 @@ export default function FinalCTA() {
           CARPE DIEM SEIZE THE DAY CARPE DIEM SEIZE THE DAY CARPE DIEM SEIZE THE DAY
         </div>
       </div>
-      
+
       <div className="relative z-10 max-w-4xl mx-auto">
         <h2 ref={textRef} className="text-5xl md:text-8xl font-black mb-12 leading-none tracking-tighter">
           Don't just watch ideas. <br />
           <span className="text-ted-black">Be part of them.</span>
         </h2>
-        <button className="bg-ted-black text-white px-12 py-5 rounded-full font-bold text-xl hover:bg-white hover:text-ted-black transition-all duration-500 shadow-2xl shadow-black/20">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH_FaA7Wh5CWS7dYk1-SNugIgx9XKFzU0kj2cvDWMRsFCDqA/viewform" target="_blank" rel="noopener noreferrer" className="bg-ted-black text-white px-12 py-5 rounded-full font-bold text-xl hover:bg-white hover:text-ted-black transition-all duration-500 shadow-2xl shadow-black/20">
           Apply to Attend
-        </button>
+        </a>
       </div>
     </section>
   );
