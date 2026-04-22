@@ -56,7 +56,7 @@ export default function Join() {
                   <div className="w-10 h-10 rounded-full bg-ted-red/10 flex items-center justify-center text-ted-red">
                     <Clock className="w-5 h-5" />
                   </div>
-                  <span className="font-medium">11:00 AM - 03:00 PM</span>
+                  <span className="font-medium">10:00 AM - 04:00 PM</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 rounded-full bg-ted-red/10 flex items-center justify-center text-ted-red">

@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const TIMELINE = [
-  { time: "11:00 AM - 11:30 AM", title: "National Anthem & Welcome Note by Host", desc: "Begin the day with the national anthem followed by a warm welcome to set the tone for the event." },
+  { time: "10:00 AM - 10:30 AM", title: "National Anthem & Welcome Note by Host", desc: "Begin the day with the national anthem followed by a warm welcome to set the tone for the event." },
   { time: "11:30 AM - 12:05 PM", title: "Session 1 Opening Talks", desc: "Kick off with inspiring talks that introduce powerful ideas and fresh perspectives." },
   { time: "12:05 PM - 12:20 PM", title: "Qawali / Singing Performance", desc: "Enjoy a soulful musical performance to energize the audience and elevate the experience." },
   { time: "12:20 PM - 01:15 PM", title: "Session 2: Mid Talks", desc: "Dive deeper into impactful stories and innovative ideas from diverse speakers." },
