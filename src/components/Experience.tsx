@@ -5,13 +5,20 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const TIMELINE = [
-  { time: "10:00 AM - 10:30 AM", title: "National Anthem & Welcome Note by Host", desc: "Begin the day with the national anthem followed by a warm welcome to set the tone for the event." },
-  { time: "11:30 AM - 12:05 PM", title: "Session 1 Opening Talks", desc: "Kick off with inspiring talks that introduce powerful ideas and fresh perspectives." },
-  { time: "12:05 PM - 12:20 PM", title: "Qawali / Singing Performance", desc: "Enjoy a soulful musical performance to energize the audience and elevate the experience." },
-  { time: "12:20 PM - 01:15 PM", title: "Session 2: Mid Talks", desc: "Dive deeper into impactful stories and innovative ideas from diverse speakers." },
-  { time: "01:15 PM - 01:45 PM", title: "Networking Break (30 mins)", desc: "Connect with fellow attendees, speakers, and partners in an engaging environment." },
-  { time: "01:45 PM - 02:30 PM", title: "Session 3: Closing Talks", desc: "Final set of talks delivering meaningful insights and lasting takeaways." },
-  { time: "02:30 PM - 03:00 PM", title: "Closing Remarks & Thank You Note", desc: "Wrap up the event with reflections, gratitude and a look ahead." },
+  { time: "10:00 AM - 10:30 AM", title: "Welcome Address", desc: "Muneeza Wasim — Organizer" },
+  { time: "10:30 AM - 10:50 AM", title: "1st Talk session", desc: "Dr. Nousheen Zaidi — Environmental Health Researcher, Punjab University" },
+  { time: "10:55 AM - 11:20 AM", title: "2nd Talk session", desc: "Mr. Mashhood Rastgar — Technology Leader, Coach & Entrepreneur" },
+  { time: "11:20 AM - 12:00 PM", title: "Entertainment Sangeet session", desc: "Ravish" },
+  { time: "12:00 PM - 12:20 PM", title: "3rd Talk session", desc: "Ms. Hamera Aisha — Wildlife Conservationist, WWF Pakistan" },
+  { time: "12:20 PM - 1:00 PM", title: "Break", desc: "Take a break to refresh and recharge for the upcoming sessions." },
+  { time: "1:00 PM - 1:30 PM", title: "4th Talk session", desc: "Iftikhar Thakur — Actor, Comedian, Philanthropist" },
+  { time: "1:30 PM - 1:50 PM", title: "5th Talk Session", desc: "Dr. Ridah noor — Doctor, Broadcaster & TV presenter" },
+  { time: "1:55 PM - 2:15 PM", title: "Entertainment Monologue Performance", desc: "Alishba" },
+  { time: "2:15 PM - 2:35 PM", title: "6th Talk session", desc: "Muhammad Danial — Lawyer, Chef & Content creator" },
+  { time: "2:35 PM - 3:10 PM", title: "Networking Break", desc: "Connect with fellow attendees, speakers, and partners in an engaging environment." },
+  { time: "3:10 PM - 3:30 PM", title: "7th Talk Session", desc: "Dr. Bushra Nisar Khan — Academic & Zoology Researcher, Punjab University" },
+  { time: "3:30 PM - 3:45 PM", title: "Conclusion remarks", desc: "Dr. Shahzeb Khan — Director, Directorate Student Affairs" },
+  { time: "3:45 PM - 4:00 PM", title: "Shield Distribution & Picture Networking", desc: "Wrap up the event with reflections, gratitude and a look ahead." },
 ];
 
 export default function Experience() {
